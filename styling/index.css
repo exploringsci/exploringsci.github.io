@@ -2,7 +2,7 @@ body{
     margin:0px;
     margin-left: 10vw;
     margin-right:10vw;
-    background-image: url("images/clouds.JPG");
+    background-image: url("../images/clouds.JPG");
     background-size:cover;
     font-family: Arial, Helvetica, sans-serif;
 }
