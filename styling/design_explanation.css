@@ -1,6 +1,6 @@
 body{
-    background-image: url("../images/red_white_patches.png");
-    background-size:cover;
+    background-image: url("../images/website_background1.svg");
+    background-size:100vw 100vh;
     margin: 0px 10vh;
     font-family:Arial, Helvetica, sans-serif;
 }
