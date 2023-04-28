@@ -1,0 +1,26 @@
+@import "index.css";
+
+a{
+    cursor: pointer;
+}
+
+.blogtitlecolumn{
+    width:20%;
+    border-right:2px gray solid;
+    padding-right: 1rem;
+    vertical-align: top;
+}
+
+.blogcontentcolumn{
+    padding: 1rem;
+    vertical-align: top;
+}
+
+.eqn{
+    height:2rem;
+}
+
+.eqnt{
+    /*tall equations*/
+    height:3rem;
+}

@@ -1,10 +1,10 @@
-body{
-    background-image: url("../images/website_background1.svg");
-    margin:0px;
-    margin-left: 10vw;
-    margin-right:10vw;
-    background-size:100vw 100vh;
+html, body{
+    background-color: rgb(242,237,233);
     font-family: Arial, Helvetica, sans-serif;
+}
+
+h4{
+    margin:0;
 }
 
 a{
@@ -14,4 +14,41 @@ a{
 
 a:hover{
     color: rgb(255, 123, 0);
+}
+
+.internal-links-box{
+    border:1px solid darkblue;
+    padding:5px;
+    float:right;
+}
+
+.internal-links{
+    color:black;
+    padding:1em;
+    border:1px black solid;
+    display:inline-block;
+}
+
+.internal-links:hover{
+    background-color: transparent;
+    border:1px black solid;
+    color:black;
+}
+
+table{
+    width:100%;
+    background-color:rgb(250,235,215);
+    border: 1px black solid;
+}
+
+.homelink{
+    background-color:rgb(184,105,105);
+}
+
+.bloglink{
+    background-color:rgb(113,171,121);
+}
+
+.resumelink{
+    background-color:rgb(136,144,186)
 }

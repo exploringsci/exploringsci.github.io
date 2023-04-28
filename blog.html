@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-JKSS8R32W8"></script>
+    <script src="./jquery.js"></script>
+    <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-JKSS8R32W8');
+    </script>
+    <link rel="stylesheet" href="styling/blog.css" />
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog</title>
+    <link rel="icon" type="image/png" href="images/favicon.png"/>
+    <script>
+        function serveBlog(n){
+            jQuery("#viewPlace").load("./ideas/i" + n + ".txt", function( response, status, xhr ) {
+            if ( status == "error" ) {
+                var msg = "Sorry but there was an error: ";
+                console.log(msg + xhr.status + " " + xhr.statusText );
+            }});
+            console.log("./ideas/i" + n + ".txt");
+        }
+    </script>
+</head>
+<body>
+    <div class="heading" >
+        <table class="headtable">
+            <tr>
+                <td>
+                    <h1>
+                        Blog
+                    </h1>
+                </td>
+                <td>
+                    <div class="internal-links-box">
+                        <a href="index.html">
+                            <div class="internal-links homelink">
+                                <h4>Home</h4> <!--Home, sweet home-->
+                            </div>
+                        </a>
+                        <a href="blog.html">
+                            <div class="internal-links bloglink">
+                                <h4>Blog</h4> <!--Hmmm-->
+                            </div>
+                        </a>
+                        <!-- <a href="resume.html">
+                            <div class="internal-links resumelink">
+                                <h4>Resume</h4>
+                            </div>
+                        </a> -->
+                    </div>
+                </td>
+            </tr>
+        </table>
+        
+        <p style="font-size: 0.7rem;">
+            <b>TOS stuff/Privacy Policy:</b> This website collects data with Google Analytics. More information here: "How Google uses data when you use our partners' sites or apps" located at <a href="https://www.google.com/policies/privacy/partners/" >https://www.google.com/policies/privacy/partners/</a>
+        </p>
+    </div>
+
+    <table>
+        <tr>
+            <td class="blogtitlecolumn">
+                <div>
+                <ul>
+                    <li>
+                        <a onclick="serveBlog(1)">
+                            About my Blogs
+                        </a>
+                    </li>
+                    <li>
+                        <a onclick="serveBlog(2)">
+                            Possible error in XKCD #2767
+                        </a>
+                    </li>
+                </ul>
+                </div>
+            </td>
+            <td class="blogcontentcolumn">
+                <div id="viewPlace">Click a blog on the left to read!</div>
+            </td>
+        </tr>
+    </table>
+</body>
+</html>

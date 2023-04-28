@@ -1,0 +1,30 @@
+<h2>Possible error in XKCD #2767</h2>
+<h4>2023-04-28</h4>
+
+<p>This is the xkcd I'm talking about: </p>
+<img src="/images/recipe_relativity 2767 2023-04-28.png" />
+<p style="font-size:0.75rem">Credit: XKCD by Randall Munroe </p>
+
+<p>The original link is <a href="https://xkcd.com/2767/">here</a>. </p>
+
+<p>The first error I think I see is that the t and t' are swapped in the red equation starting with "t=". Here, Munroe (the comic's author) is applying the Lorentz transformation on the time. However, this transformation should look like: <img class="eqn" src="/images/t_eqn.png" />, where <img class="eqnt" src="/images/gamma_eqn.png" />. (The full transformation has another term but it can be ignored here.)</p>
+
+<p>t' represents the time measured by an observer in a "primed" frame of reference moving at velocity=v with respect to the rest frame, and t represents the time measured by an observer in the rest frame. In Munroe's equation, I believe the t and t' are erroneously swapped.</p>
+
+<p>His next error is in the caption at the bottom: Rather than the author moving past him at 94% of the speed of light, I believe Munroe is the one moving past the rest frame at 0.94c. This can be explained intuitively: Time dilation occurs at high velocities, meaning that an event would be observed to take longer when the observer is moving at a high velocity. Therefore, if Munroe's time is greater than the recipe author's time, that means Munroe is in the fast-moving frame.</p>
+
+<p>In this case, the circled numerical answer ends up being unchanged. This is because the two swaps my correction calls for basically cancel out: </p>
+
+<p><b>Corrections: </b></p>
+<ol>
+<li>Swap the t and t' in the original Lorentz transformation equation. </li>
+<li>Swap the <em>substituted values</em> of t and t'. This is because t' represents the time recorded by the primed, or moving, frame, which is Munroe's frame. So set t' = 105 and t=35.</li>
+</ol>
+
+<p>The result of both these changes results in a numerical answer of v=0.94c, just as Munroe got, but my interpretation is different. While Munroe said the recipe author is moving past him at 0.94c, I say that Munroe is moving past <em>something</em> at 0.94c.</p>
+
+<p>But what is that "something"? Here's the deal: If Munroe's burrito was moving with him in the frame and the time-dependent "done-ness" of the burrito was identical in both the recipe author's and Munroe's burritos, then Munroe's burrito would also appear to be done in 35 minutes in Munroe's frame, whatever it's speed is. This should make sense: everything in Munroe's frame is moving with velocity=0 with respect to Munroe. Thus, for Munroe, looking within his own frame, there are no relativistic effects on cook time and he would observe his burrito getting done in 35 minutes, just like the recipe author recorded in his own frame. Oh, and I should mention: we're assuming the recipe author's and Munroe's burritos are identical in physical characteristics.</p>
+
+<p>What this leads us to is that Munroe's burrito is outside of his frame and in the same rest frame as the recipe author's. So basically, Munroe is flying past his own burrito, the recipe author, and the recipe author's burrito at 94% the speed of light. </p>
+
+<p>Needless to say, there is a pretty high chance (maybe about 94%) that I made an error in the above analysis. Munroe is a smart man who worked at NASA's Langley Research Center and has a Physics degree. Please let me know of any mistakes and where I went wrong!</p>
