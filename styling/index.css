@@ -1,6 +1,8 @@
 html, body{
-    background-color: rgb(242,237,233);
+    background-color: rgb(254, 248, 248);
     font-family: Arial, Helvetica, sans-serif;
+    color:rgb(44, 44, 44);
+    margin:0px;
 }
 
 h4{
@@ -16,8 +18,16 @@ a:hover{
     color: rgb(255, 123, 0);
 }
 
+.heading{
+    background-color: antiquewhite;
+    padding:3%;
+}
+
+.bodytext{
+    margin:3%;
+}
+
 .internal-links-box{
-    border:1px solid darkblue;
     padding:5px;
     float:right;
 }
@@ -25,20 +35,12 @@ a:hover{
 .internal-links{
     color:black;
     padding:1em;
-    border:1px black solid;
     display:inline-block;
 }
 
-.internal-links:hover{
-    background-color: transparent;
-    border:1px black solid;
-    color:black;
-}
 
 table{
     width:100%;
-    background-color:rgb(250,235,215);
-    border: 1px black solid;
 }
 
 .homelink{
