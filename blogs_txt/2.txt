@@ -31,4 +31,4 @@
 
 <p>Q.E.D.</p>
 
-<p>Thanks for reading! I don't think I made any errors above, but if I did, please let me know with a pull request to this blog; I'd really appreciate it :)</p>
+<p>Thanks for reading! I don't think I made any errors above, but if I did, please let me know; I'd really appreciate it :)</p>
