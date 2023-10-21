@@ -1,7 +1,7 @@
 <h2>Possible error in XKCD #2767</h2>
 <h4>2023-04-28</h4>
 
-<p>This is the xkcd I'm talking about: </p>
+<p>This is the XKCD I'm talking about: </p>
 <img src="/images/recipe_relativity 2767 2023-04-28.png" />
 <p style="font-size:0.75rem">Credit: XKCD by Randall Munroe </p>
 
@@ -15,16 +15,20 @@
 
 <p>In this case, the circled numerical answer ends up being unchanged. This is because the two swaps my correction calls for basically cancel out: </p>
 
-<p><b>Corrections: </b></p>
+<p><b>In summary, the numerical corrections: </b></p>
 <ol>
 <li>Swap the t and t' in the original Lorentz transformation equation. </li>
 <li>Swap the <em>substituted values</em> of t and t'. This is because t' represents the time recorded by the primed, or moving, frame, which is Munroe's frame. So set t' = 105 and t=35.</li>
 </ol>
 
-<p>The result of both these changes results in a numerical answer of v=0.94c, just as Munroe got, but my interpretation is different. While Munroe said the recipe author is moving past him at 0.94c, I say that Munroe is moving past <em>something</em> at 0.94c.</p>
+<p>The result of both these changes results in a numerical answer of v=0.94c, just as Munroe got, but my interpretation is different. While Munroe said the recipe author is moving past him at 0.94c, I argue that Munroe is moving past <em>something</em> at 0.94c.</p>
 
-<p>But what is that "something"? Here's the deal: If Munroe's burrito was moving with him in the frame and the time-dependent "done-ness" of the burrito was identical in both the recipe author's and Munroe's burritos, then Munroe's burrito would also appear to be done in 35 minutes in Munroe's frame, whatever it's speed is. This should make sense: everything in Munroe's frame is moving with velocity=0 with respect to Munroe. Thus, for Munroe, looking within his own frame, there are no relativistic effects on cook time and he would observe his burrito getting done in 35 minutes, just like the recipe author recorded in his own frame. Oh, and I should mention: we're assuming the recipe author's and Munroe's burritos are identical in physical characteristics.</p>
+<p>But what is that "something"? Here's the deal: If Munroe's burrito was moving with him in the frame and the time-dependent "done-ness" of the burrito was identical for both the recipe author's and Munroe's burritos, then Munroe's burrito would also appear to be done in 35 minutes in Munroe's primed frame. This should make sense: everything in Munroe's frame is moving with velocity=0 with respect to Munroe. Thus, for Munroe, looking within his own frame, there are no relativistic effects on cook time and he would observe his burrito getting done in 35 minutes, just like the recipe author recorded in his own frame.</p>
+
+<p>That assumes that all relativistic shenanigans were done by Munroe. But, what if the original 35 minute time was obtained with the <em>recipe author's</em> relativistic shenanigans? Without crunching more math, we can say that if the 35 minutes observed by the recipe author was affected by time dilation, then the rest frame done-time would be less than 35 minutes, not more. And thus, Munroe would definitely not observe an even higher done-time.</p>
 
 <p>What this leads us to is that Munroe's burrito is outside of his frame and in the same rest frame as the recipe author's. So basically, Munroe is flying past his own burrito, the recipe author, and the recipe author's burrito at 94% the speed of light. </p>
 
-<p>Needless to say, there is a pretty high chance (maybe about 94%) that I made an error in the above analysis. Munroe is a smart man who worked at NASA's Langley Research Center and has a Physics degree. Please let me know of any mistakes and where I went wrong!</p>
+<p>Q.E.D.</p>
+
+<p>Thanks for reading! I don't think I made any errors above, but if I did, please let me know with a pull request to this blog; I'd really appreciate it :)</p>

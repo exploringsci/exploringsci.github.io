@@ -18,9 +18,9 @@
     <link rel="icon" type="image/png" href="images/favicon.png"/>
     <script>
         function serveBlog(n){
-            jQuery("#viewPlace").load("./ideas/i" + n + ".txt", function( response, status, xhr ) {
+            jQuery("#viewPlace").load("./blogs_txt/" + n + ".txt", function( response, status, xhr ) {
             if ( status == "error" ) {
-                var msg = "Sorry but there was an error: ";
+                var msg = "Sorry, but there was an error: ";
                 console.log(msg + xhr.status + " " + xhr.statusText );
             }});
             console.log("./ideas/i" + n + ".txt");
@@ -69,11 +69,6 @@
                 <td class="blogtitlecolumn">
                     <div>
                     <ul>
-                        <li>
-                            <a onclick="serveBlog(1)">
-                                About my Blogs
-                            </a>
-                        </li>
                         <li>
                             <a onclick="serveBlog(2)">
                                 Possible error in XKCD #2767
